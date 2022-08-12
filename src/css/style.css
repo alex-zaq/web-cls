@@ -1,12 +1,22 @@
 
 h2 {
-  color:red;
-  /* font-size: 50px; */
+  color:red; 
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 30px;
 }
+  /* font-size: 50px; */
+
+  .text {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
 
  
 .chapter {
-  color:blue;
+  color:rgba(255,20,147,1);
 }
 
 #begin {
