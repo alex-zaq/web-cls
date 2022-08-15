@@ -206,12 +206,14 @@ h2.title {
 
 .waiting .waiting_wrapper {
   margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .waiting .waiting_wrapper .waiting_item {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 15px;
+  /* display: inline-block; */
+  /* vertical-align: top; */
+  /* margin: 0 15px; */
   width:339px;
   text-align: center; 
 }
@@ -229,3 +231,25 @@ h2.title {
   text-align: center;
   color: #4a4a4a;
 }
+
+
+/* .my-flex-containter {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 450px;
+
+}
+
+.my-flex-block {
+  width:150px;
+  height:150px;
+  background-color:red;
+  text-align: center;
+  color:#fff;
+  margin: 0 50px;
+} */
+
+
